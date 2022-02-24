@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>NCC Live Chat</h1>
+    </div>
+    <div class="roomname">
+      <h1 id="room">Roomname: </h1>
+    </div>
+    <div class="users">
+      <h1 class="inthisroom">In this room:</h1>
+      <ul id="user"></ul>
+    </div>
+    <div class="box">
+      <ul id="messages"></ul>
+    </div>
+    <div class="rooms">
+      <h1 class="roomavailable">Room Available:</h1>
+      <ul id="room-a"></ul>
+    </div>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button class="button">
+        Send
+      </button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>
