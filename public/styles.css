@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap%27');
+
+ul {
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#room-a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+#room {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#user {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+.roomavailable {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.inthisroom {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 0px;
+  text-align: center;
+  background: #1a96bc;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+.box {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  width: 900px;
+  border: 3px solid #1a96bc;
+  padding: 10px;
+  height: 600px;
+  overflow: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.rooms {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  width: 300px;
+  border: 3px solid #1a96bc;
+  padding: 10px;
+  height: 600px;
+  overflow: auto;
+}
+
+.users {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  width: 300px;
+  border: 3px solid #1a96bc;
+  padding: 10px;
+  height: 600px;
+  overflow: auto;
+  margin-left: 50px;
+}
+
+.roomname {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+#form {
+  background: #1a96bc;
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 3rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
+#input {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  padding: 0 1rem;
+  flex-grow: 1;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+#input:focus {
+  outline: none;
+}
+.button {
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+.button:hover {
+  background-color: #777777; /* Green */
+  color: white;
+}
+
+#messages {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#messages > li {
+  padding: 0.5rem 1rem;
+}
+#messages > li:nth-child(odd) {
+  background: #8fd0e4;
+}
