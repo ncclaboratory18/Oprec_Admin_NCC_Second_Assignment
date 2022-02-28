@@ -246,7 +246,7 @@ function getAllRooms() {
 module.exports = { joinUser, removeUser, getUsers, getUserRoom, getAllRooms };
 ```
 # Penugasan
-* Penugasan bersifat kelompok (2 orang dan ada yang 3 orang, diplotting-kan silahkan cek drive camin)
+* Penugasan bersifat kelompok (2 orang, diplotting-kan silahkan cek drive camin)
 * Aplikasi yang dibuat terdapat 2 fitur wajib yaitu live chat dan shared whiteboard (https://socket.io/demos/whiteboard)
 * Terdapat 2 endpoint untuk sistem shared whiteboard
   - 1 endpoint untuk whiteboard colaborative dimana semua user bisa manggambar sesukanya.
